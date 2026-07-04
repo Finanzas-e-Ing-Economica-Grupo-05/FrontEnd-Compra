@@ -9,6 +9,7 @@ import SimuladorView from '../views/SimuladorView.vue'
 import CronogramaView from '../views/CronogramaView.vue'
 import ResumenFinancieroView from '../views/ResumenFinancieroView.vue'
 import MisCreditosView from '../views/MisCreditosView.vue'
+import AyudaView from '../views/AyudaView.vue'
 
 const routes = [
     { path: '/', name: 'home', component: HomeView },
@@ -18,7 +19,8 @@ const routes = [
     { path: '/simulador', name: 'simulador', component: SimuladorView, meta: { requiereAuth: true } },
     { path: '/cronograma/:id', name: 'cronograma', component: CronogramaView, meta: { requiereAuth: true } },
     { path: '/resumen/:id', name: 'resumen', component: ResumenFinancieroView, meta: { requiereAuth: true } },
-    { path: '/mis-creditos', name: 'mis-creditos', component: MisCreditosView, meta: { requiereAuth: true } }
+    { path: '/mis-creditos', name: 'mis-creditos', component: MisCreditosView, meta: { requiereAuth: true } },
+    { path: '/ayuda', name: 'ayuda', component: AyudaView }
 ]
 
 const router = createRouter({

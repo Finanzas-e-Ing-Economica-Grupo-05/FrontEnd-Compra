@@ -17,7 +17,7 @@ function cerrarSesion() {
     <nav class="nav-links">
       <router-link to="/catalogo">Simulador</router-link>
       <router-link to="/mis-creditos">Mis Créditos</router-link>
-      <router-link to="/ayuda">Ayuda</router-link>
+      <router-link to="/ayuda">Ayuda y asistencia técnica</router-link>
     </nav>
 
     <div class="nav-actions">
