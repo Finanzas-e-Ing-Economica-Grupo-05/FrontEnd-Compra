@@ -27,9 +27,6 @@ function porc(valor) {
       <span><i class="dot interes"></i> Intereses {{ porc(intereses) }}%</span>
       <span><i class="dot seguro"></i> Seguros {{ porc(seguros) }}%</span>
     </div>
-    <div class="totales">
-      <p class="muted">Total a Pagar: <strong>{{ formatoMoneda(total) }}</strong></p>
-    </div>
   </div>
 </template>
 
